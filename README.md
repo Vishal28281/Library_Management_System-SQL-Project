@@ -64,11 +64,5 @@ JOIN Books b ON i.book_id = b.book_id;
 -- Show all books with zero available copies
 SELECT title FROM Books WHERE available_copies = 0;
 
-📌 Future Enhancements
-Add a front-end interface using HTML/CSS or Python (Tkinter/Flask)
-
-Add user authentication system
-
-Automate fine calculation for late returns
 
 
